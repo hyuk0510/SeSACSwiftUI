@@ -14,6 +14,8 @@
 		D83EFAAB2B01A8C0004ABB03 /* SeSACSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83EFAAA2B01A8C0004ABB03 /* SeSACSwiftUITests.swift */; };
 		D83EFAB52B01A8C0004ABB03 /* SeSACSwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83EFAB42B01A8C0004ABB03 /* SeSACSwiftUIUITests.swift */; };
 		D83EFAB72B01A8C0004ABB03 /* SeSACSwiftUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83EFAB62B01A8C0004ABB03 /* SeSACSwiftUIUITestsLaunchTests.swift */; };
+		D83EFAC42B01B965004ABB03 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83EFAC32B01B965004ABB03 /* MenuView.swift */; };
+		D83EFAC62B01C892004ABB03 /* RenderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83EFAC52B01C892004ABB03 /* RenderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		D83EFAB02B01A8C0004ABB03 /* SeSACSwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SeSACSwiftUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D83EFAB42B01A8C0004ABB03 /* SeSACSwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeSACSwiftUIUITests.swift; sourceTree = "<group>"; };
 		D83EFAB62B01A8C0004ABB03 /* SeSACSwiftUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeSACSwiftUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D83EFAC32B01B965004ABB03 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		D83EFAC52B01C892004ABB03 /* RenderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RenderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +102,8 @@
 				D83EFA9B2B01A8BD004ABB03 /* ContentView.swift */,
 				D83EFA9D2B01A8BF004ABB03 /* Assets.xcassets */,
 				D83EFA9F2B01A8BF004ABB03 /* Preview Content */,
+				D83EFAC32B01B965004ABB03 /* MenuView.swift */,
+				D83EFAC52B01C892004ABB03 /* RenderView.swift */,
 			);
 			path = SeSACSwiftUI;
 			sourceTree = "<group>";
@@ -258,6 +264,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				D83EFA9C2B01A8BD004ABB03 /* ContentView.swift in Sources */,
+				D83EFAC42B01B965004ABB03 /* MenuView.swift in Sources */,
+				D83EFAC62B01C892004ABB03 /* RenderView.swift in Sources */,
 				D83EFA9A2B01A8BD004ABB03 /* SeSACSwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
