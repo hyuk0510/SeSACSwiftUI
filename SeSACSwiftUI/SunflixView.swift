@@ -10,8 +10,8 @@ import SwiftUI
 struct SunflixView: View {
     
     @State private var titles = ["이메일 주소 또는 전화번호", "비밀번호", "닉네임", "위치", "추천 코드 입력"]
-    
     @State private var isOn = true
+    @State private var showAlert = false
     
     var body: some View {
         
@@ -34,7 +34,7 @@ struct SunflixView: View {
                 textFieldView(title: $titles[3])
                 textFieldView(title: $titles[4])
                 Button("회원가입", action: {
-                    
+                    showAlert = true
                 })
                 .font(.system(size: 17, weight: .bold, design: .default))
                 .frame(width: 300, height: 50)
@@ -44,6 +44,11 @@ struct SunflixView: View {
                 .multilineTextAlignment(.center)
                 .clipShape(.buttonBorder)
                 .buttonStyle(.plain)
+                .alert("회원가입 완료", isPresented: $showAlert) {
+                    Button("취소", role: .cancel) {
+                        
+                    }
+                }
                 
                 Toggle(isOn: $isOn){
                     Text("추가 정보 입력")
