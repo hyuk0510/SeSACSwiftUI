@@ -19,6 +19,7 @@
 		D83EFAC82B03070C004ABB03 /* TamagotchiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83EFAC72B03070C004ABB03 /* TamagotchiView.swift */; };
 		D83EFACA2B033798004ABB03 /* MovieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83EFAC92B033798004ABB03 /* MovieView.swift */; };
 		D83EFACC2B037275004ABB03 /* SunflixView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83EFACB2B037275004ABB03 /* SunflixView.swift */; };
+		D83EFACE2B0390E0004ABB03 /* MovieFosterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83EFACD2B0390E0004ABB03 /* MovieFosterView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,7 @@
 		D83EFAC72B03070C004ABB03 /* TamagotchiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TamagotchiView.swift; sourceTree = "<group>"; };
 		D83EFAC92B033798004ABB03 /* MovieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieView.swift; sourceTree = "<group>"; };
 		D83EFACB2B037275004ABB03 /* SunflixView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SunflixView.swift; sourceTree = "<group>"; };
+		D83EFACD2B0390E0004ABB03 /* MovieFosterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieFosterView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +115,7 @@
 				D83EFAC72B03070C004ABB03 /* TamagotchiView.swift */,
 				D83EFAC92B033798004ABB03 /* MovieView.swift */,
 				D83EFACB2B037275004ABB03 /* SunflixView.swift */,
+				D83EFACD2B0390E0004ABB03 /* MovieFosterView.swift */,
 			);
 			path = SeSACSwiftUI;
 			sourceTree = "<group>";
@@ -278,6 +281,7 @@
 				D83EFAC82B03070C004ABB03 /* TamagotchiView.swift in Sources */,
 				D83EFAC42B01B965004ABB03 /* MenuView.swift in Sources */,
 				D83EFAC62B01C892004ABB03 /* RenderView.swift in Sources */,
+				D83EFACE2B0390E0004ABB03 /* MovieFosterView.swift in Sources */,
 				D83EFA9A2B01A8BD004ABB03 /* SeSACSwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
