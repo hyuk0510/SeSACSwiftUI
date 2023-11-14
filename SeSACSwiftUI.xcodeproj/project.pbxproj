@@ -18,6 +18,7 @@
 		D83EFAC62B01C892004ABB03 /* RenderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83EFAC52B01C892004ABB03 /* RenderView.swift */; };
 		D83EFAC82B03070C004ABB03 /* TamagotchiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83EFAC72B03070C004ABB03 /* TamagotchiView.swift */; };
 		D83EFACA2B033798004ABB03 /* MovieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83EFAC92B033798004ABB03 /* MovieView.swift */; };
+		D83EFACC2B037275004ABB03 /* SunflixView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83EFACB2B037275004ABB03 /* SunflixView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 		D83EFAC52B01C892004ABB03 /* RenderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RenderView.swift; sourceTree = "<group>"; };
 		D83EFAC72B03070C004ABB03 /* TamagotchiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TamagotchiView.swift; sourceTree = "<group>"; };
 		D83EFAC92B033798004ABB03 /* MovieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieView.swift; sourceTree = "<group>"; };
+		D83EFACB2B037275004ABB03 /* SunflixView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SunflixView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +112,7 @@
 				D83EFAC52B01C892004ABB03 /* RenderView.swift */,
 				D83EFAC72B03070C004ABB03 /* TamagotchiView.swift */,
 				D83EFAC92B033798004ABB03 /* MovieView.swift */,
+				D83EFACB2B037275004ABB03 /* SunflixView.swift */,
 			);
 			path = SeSACSwiftUI;
 			sourceTree = "<group>";
@@ -269,6 +272,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D83EFACC2B037275004ABB03 /* SunflixView.swift in Sources */,
 				D83EFA9C2B01A8BD004ABB03 /* ContentView.swift in Sources */,
 				D83EFACA2B033798004ABB03 /* MovieView.swift in Sources */,
 				D83EFAC82B03070C004ABB03 /* TamagotchiView.swift in Sources */,
