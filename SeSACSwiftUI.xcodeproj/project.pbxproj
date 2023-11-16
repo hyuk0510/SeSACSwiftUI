@@ -20,6 +20,11 @@
 		D83EFACA2B033798004ABB03 /* MovieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83EFAC92B033798004ABB03 /* MovieView.swift */; };
 		D83EFACC2B037275004ABB03 /* SunflixView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83EFACB2B037275004ABB03 /* SunflixView.swift */; };
 		D83EFACE2B0390E0004ABB03 /* MovieFosterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83EFACD2B0390E0004ABB03 /* MovieFosterView.swift */; };
+		D83EFAD02B044C3B004ABB03 /* TransitionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83EFACF2B044C3B004ABB03 /* TransitionView.swift */; };
+		D83EFAD22B045025004ABB03 /* CategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83EFAD12B045025004ABB03 /* CategoryView.swift */; };
+		D83EFAD42B045BB7004ABB03 /* PosterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83EFAD32B045BB7004ABB03 /* PosterView.swift */; };
+		D83EFAD62B046FAF004ABB03 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83EFAD52B046FAF004ABB03 /* HomeView.swift */; };
+		D83EFAD82B0471BE004ABB03 /* StartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83EFAD72B0471BE004ABB03 /* StartView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +61,11 @@
 		D83EFAC92B033798004ABB03 /* MovieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieView.swift; sourceTree = "<group>"; };
 		D83EFACB2B037275004ABB03 /* SunflixView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SunflixView.swift; sourceTree = "<group>"; };
 		D83EFACD2B0390E0004ABB03 /* MovieFosterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieFosterView.swift; sourceTree = "<group>"; };
+		D83EFACF2B044C3B004ABB03 /* TransitionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionView.swift; sourceTree = "<group>"; };
+		D83EFAD12B045025004ABB03 /* CategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryView.swift; sourceTree = "<group>"; };
+		D83EFAD32B045BB7004ABB03 /* PosterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PosterView.swift; sourceTree = "<group>"; };
+		D83EFAD52B046FAF004ABB03 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		D83EFAD72B0471BE004ABB03 /* StartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +126,11 @@
 				D83EFAC92B033798004ABB03 /* MovieView.swift */,
 				D83EFACB2B037275004ABB03 /* SunflixView.swift */,
 				D83EFACD2B0390E0004ABB03 /* MovieFosterView.swift */,
+				D83EFACF2B044C3B004ABB03 /* TransitionView.swift */,
+				D83EFAD12B045025004ABB03 /* CategoryView.swift */,
+				D83EFAD32B045BB7004ABB03 /* PosterView.swift */,
+				D83EFAD52B046FAF004ABB03 /* HomeView.swift */,
+				D83EFAD72B0471BE004ABB03 /* StartView.swift */,
 			);
 			path = SeSACSwiftUI;
 			sourceTree = "<group>";
@@ -279,9 +294,14 @@
 				D83EFA9C2B01A8BD004ABB03 /* ContentView.swift in Sources */,
 				D83EFACA2B033798004ABB03 /* MovieView.swift in Sources */,
 				D83EFAC82B03070C004ABB03 /* TamagotchiView.swift in Sources */,
+				D83EFAD22B045025004ABB03 /* CategoryView.swift in Sources */,
+				D83EFAD82B0471BE004ABB03 /* StartView.swift in Sources */,
 				D83EFAC42B01B965004ABB03 /* MenuView.swift in Sources */,
+				D83EFAD02B044C3B004ABB03 /* TransitionView.swift in Sources */,
 				D83EFAC62B01C892004ABB03 /* RenderView.swift in Sources */,
 				D83EFACE2B0390E0004ABB03 /* MovieFosterView.swift in Sources */,
+				D83EFAD62B046FAF004ABB03 /* HomeView.swift in Sources */,
+				D83EFAD42B045BB7004ABB03 /* PosterView.swift in Sources */,
 				D83EFA9A2B01A8BD004ABB03 /* SeSACSwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
