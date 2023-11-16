@@ -18,6 +18,12 @@ struct TransitionView: View {
     @State private var isFull = false
     @State private var isSheet = false
 
+    init(isFull: Bool = false, isSheet: Bool = false) {
+        self.isFull = isFull
+        self.isSheet = isSheet
+        print("TransitionView init")
+    }
+    
     var body: some View {
         NavigationView {
             HStack(spacing: 20) {
@@ -25,21 +31,27 @@ struct TransitionView: View {
                     isFull.toggle()
                 }
                 
-                
                 Button("Sheet") {
                     isSheet = true
                 }
                 
                 NavigationLink("Push") {
-                    MovieFosterView()
+                    NavigationLazyView {
+                        RenderView()
+                    }
                 }
+                NavigationLink("Push") {
+                    NavigationLazyView {
+                        PosterView()
+                    }
+                }
+                .sheet(isPresented: $isSheet, content: {
+                    RenderView()
+                })
+                .fullScreenCover(isPresented: $isFull, content: {
+                    RenderView()
+                })
             }
-            .sheet(isPresented: $isSheet, content: {
-                SunflixView()
-            })
-            .fullScreenCover(isPresented: $isFull, content: {
-                SunflixView()
-        })
         }
     }
 }
