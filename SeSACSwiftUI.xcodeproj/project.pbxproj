@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		D822B97E2B05A82E00371FAC /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D822B97D2B05A82E00371FAC /* SearchView.swift */; };
 		D822B9802B05B44E00371FAC /* NavigationLazyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D822B97F2B05B44E00371FAC /* NavigationLazyView.swift */; };
+		D822B9E02B06F37F00371FAC /* ChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D822B9DF2B06F37F00371FAC /* ChartView.swift */; };
+		D822B9E22B0701AF00371FAC /* GridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D822B9E12B0701AF00371FAC /* GridView.swift */; };
 		D83EFA9A2B01A8BD004ABB03 /* SeSACSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83EFA992B01A8BD004ABB03 /* SeSACSwiftUIApp.swift */; };
 		D83EFA9C2B01A8BD004ABB03 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83EFA9B2B01A8BD004ABB03 /* ContentView.swift */; };
 		D83EFA9E2B01A8BF004ABB03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D83EFA9D2B01A8BF004ABB03 /* Assets.xcassets */; };
@@ -49,6 +51,8 @@
 /* Begin PBXFileReference section */
 		D822B97D2B05A82E00371FAC /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
 		D822B97F2B05B44E00371FAC /* NavigationLazyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationLazyView.swift; sourceTree = "<group>"; };
+		D822B9DF2B06F37F00371FAC /* ChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartView.swift; sourceTree = "<group>"; };
+		D822B9E12B0701AF00371FAC /* GridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridView.swift; sourceTree = "<group>"; };
 		D83EFA962B01A8BD004ABB03 /* SeSACSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeSACSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D83EFA992B01A8BD004ABB03 /* SeSACSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeSACSwiftUIApp.swift; sourceTree = "<group>"; };
 		D83EFA9B2B01A8BD004ABB03 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -137,6 +141,8 @@
 				D83EFAD72B0471BE004ABB03 /* StartView.swift */,
 				D822B97D2B05A82E00371FAC /* SearchView.swift */,
 				D822B97F2B05B44E00371FAC /* NavigationLazyView.swift */,
+				D822B9DF2B06F37F00371FAC /* ChartView.swift */,
+				D822B9E12B0701AF00371FAC /* GridView.swift */,
 			);
 			path = SeSACSwiftUI;
 			sourceTree = "<group>";
@@ -303,8 +309,10 @@
 				D83EFAD22B045025004ABB03 /* CategoryView.swift in Sources */,
 				D83EFAD82B0471BE004ABB03 /* StartView.swift in Sources */,
 				D83EFAC42B01B965004ABB03 /* MenuView.swift in Sources */,
+				D822B9E02B06F37F00371FAC /* ChartView.swift in Sources */,
 				D83EFAD02B044C3B004ABB03 /* TransitionView.swift in Sources */,
 				D822B9802B05B44E00371FAC /* NavigationLazyView.swift in Sources */,
+				D822B9E22B0701AF00371FAC /* GridView.swift in Sources */,
 				D83EFAC62B01C892004ABB03 /* RenderView.swift in Sources */,
 				D83EFACE2B0390E0004ABB03 /* MovieFosterView.swift in Sources */,
 				D822B97E2B05A82E00371FAC /* SearchView.swift in Sources */,

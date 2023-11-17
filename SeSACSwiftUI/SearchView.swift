@@ -44,11 +44,13 @@ struct Movie: Hashable, Identifiable {
     let id = UUID()
     let name: String
     let color = Color.random()
+    let count = Int.random(in: 1...100)
 }
 
 struct SearchView: View {
     
-    @State var searchText = ""
+    @State private var searchText = ""
+    @State private var showChart = false
     
     let movie = [
         Movie(name: "어벤져스"), Movie(name: "가나다라"),
@@ -92,10 +94,32 @@ struct SearchView: View {
             .navigationDestination(for: Movie.self) { item in
                 SearchDetailView(movie: item)
             }
+            .navigationBarTitleDisplayMode(.inline)
+            .toolbar {
+                ToolbarItemGroup(placement: .topBarLeading) {
+                    Button {
+                        showChart.toggle()
+                    } label: {
+                        Image(systemName: "star.fill")
+                    }
+                    .sheet(isPresented: $showChart, content: {
+                        ChartView(movie: movie)
+                    })
+                }
+                
+                ToolbarItemGroup(placement: .topBarTrailing) {
+                    Button {
+                        print("클릭되었습니다")
+                    } label: {
+                        Image(systemName: "person.fill")
+                    }
+                }
+            }
+            .searchable(text: $searchText, placement: .navigationBarDrawer, prompt: "검색어를 입력해주세요")
+            .onSubmit(of: .search) {
+                print("검색")
         }
-        .searchable(text: $searchText, placement: .navigationBarDrawer, prompt: "검색어를 입력해주세요")
-        .onSubmit(of: .search) {
-            print("검색")
+        
         }
     }
 }
